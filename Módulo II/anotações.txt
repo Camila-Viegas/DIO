@@ -1,0 +1,45 @@
+Git = realiza o versionamento por meio de um sistema distribuído
+
+Git trabalha com repositório local (na máquina)
+GitHub trabalha com o repositório remoto
+
+GUI - graphical user interface
+CLI - comand line interface
+
+Prompt de comando
+cd - acessa diretório
+cd .. - retorna 1 diretório
+dir - lista o conteúdo do diretório
+mkdir - cria diretório
+del / rm - remove arquivo
+rmdir - remove diretório
+cls - limpa tela
+tab - complementa o comando
+echo - "printa" na tela
+echo > cria arquivo
+echo hello > hello.txt - cria o arquivo hello.txt e escreve o conteúdo hello na pasta
+
+A encripataçãpo do Git gera um conjunto de 40 caracteres para sua identificação
+
+Terminal Git
+Ctrl+l = limpeza da tela
+pwd = mostra o caminho completo do diretório
+eval $(ssh-agent -s) = inicializa o ssh-agent
+ls = lista o conteúdo do diretório
+git clone endereço http ou chave ssh do repositório remoto = clona o repositório para o seu repositório local
+git init = cria um repositório local
+git config --global user.mail = configura o email para todos os repositórios do github (colocar seu email)
+git config --global user.name = configura o autor para todos os repositórios do github (colocar seu nome)
+git add = adiciona arquivos/diretórios no stage do seu repositório local
+git commit -m "descrição"= realiza o versionamento, sempre utilizar a flag -m com a descrição das alterações para boas práticas de programação
+Untrack = são os arquivos/diretórios que o git ainda não tem conhecimento (sem add e commit)
+Track = são os arquivos/diretórios que o git tem conhecimento (após add e commit)
+git status = mostra a situação, se falta algo ele aponta com as possíveis soluções e os comandos
+mv = comando para mover arquivo
+git remote add = indica o repositório remoto no github
+git remete -v = mostra os repositórios do github
+git push = envia o que está no repositório local para o repositório remoto, informar o link e a branch
+	exemplo: git push edereço branch
+
+
+
