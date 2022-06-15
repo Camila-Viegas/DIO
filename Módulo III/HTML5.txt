@@ -1,0 +1,20 @@
+HTML foi criado 91 por Tim Berners-Lee, com 18 elementos, porém seus primeiros esboços começaram 1980.
+Desde então surgiram 5 versões:
+	1 - 1994
+	2 - 1995
+	3 - 1997
+	4 - 1997
+	5 - 2014
+
+O Elemento é a base do HTML que é formado pela tag <> o texto e novamente <> para o fechamento.
+
+Estrutura:
+	<!DOCTYPE html> 	//não é um elemento HTML, somente informa ao navegador o nosso conteúdo 
+	<html> 		//inicio
+	   <head>
+	      <meta>
+	      <title></title>
+	   </head>
+	   <body>
+	   </body>
+	</html>		//fechamento da tag
