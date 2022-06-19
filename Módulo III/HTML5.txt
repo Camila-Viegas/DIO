@@ -18,3 +18,31 @@ Estrutura:
 	   <body>
 	   </body>
 	</html>		//fechamento da tag
+
+<section> - seção genérica
+<header> - cabeçalho
+<article> - conteúdo relevante
+<aside> - conteúdo relacionado ao contéudo principal da página
+<footer> - rodapé da página ou de um article
+<h1>-<h6> - títulos tamanhos de 1 a 6
+<p> - texto
+<a> - ancora
+	<a href="inserir o hiperlink aqui" target="_blank">Descrição link</a>
+		target="_blank" para abrir o link em nova aba nova guia
+		link de e-mail = <a href="mailto:email@email.com">
+<img> - imagem
+	<img src"caminho da imagem">
+	<img alt="descrição da imagem"> 
+<ul> - lista na qual a ordem dos elementos não é importante
+<ol> - lista na qual os elementos são ordenados, por números ou letras
+<li> - item da lista
+
+
+site para otimizar as imagens tinypng
+
+listas agrupam itens	
+
+HTML teve como objetivo a publicação de textos e links
+
+CSS é uma lingagem de estilo criada para formatação de páginas.
+
