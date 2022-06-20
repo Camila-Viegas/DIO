@@ -44,5 +44,8 @@ listas agrupam itens
 
 HTML teve como objetivo a publicação de textos e links
 
-CSS é uma lingagem de estilo criada para formatação de páginas.
+id e classe no HTML
+
+	<header id="header" class="header></header>
+	<header class="header"></header>
 

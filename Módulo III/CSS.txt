@@ -1,0 +1,43 @@
+CSS é uma lingagem de estilo criada para formatação de páginas, cria-se regras de estilo para elementos ou grupos de elementos.
+
+Regras:
+Deve-se utilizar seletores ou grupo de seletores
+	exemplos: a, p, h1, h3, ou seja, elementos html (seletores de tipo)
+depois abrir chaves { para colocar as declarações
+	as declarações são formadas por um propriedade e um valor
+		exemplo: color (propriedade): blue (valor);
+
+
+Id's e Classes - pode representar qualquer tipo de elemento	
+Utilizados para definir quais os elementos serão configurados, por exemplo, se
+em uma página existe mais de um elemento <header> e não informar o id e a classe 
+todos os "headers" receberão a mesma configuração.
+
+id e classe no HTML
+
+	<header id="header" class="header></header>
+	<header class="header"></header>
+
+classe no CSS
+
+.header {
+   padding: 10px;
+}
+
+
+id no CSS
+
+#header {
+   padding: 15px;
+}
+
+um id só pode ser utilizado 1x na página
+
+O texto no HMLT é representado com uma caixa retangular chamado de box model, com o css é posssível
+alterar a aparencia dessa caixa, como largura e cor.
+O box model é composto pode 4 áreas:
+	margin - espaçamento entre elementos
+	border - circundam o padding e o conteúdo
+	padding - espaçamento entre a borda e o conteúdo
+	content - texto, imagem ou vídeo
+ 
