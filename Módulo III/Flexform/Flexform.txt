@@ -1,0 +1,22 @@
+Flexbox
+
+Flex Container
+	Propriedades:
+	* display -> inicializador do container
+	* flex-direction -> faz o direcionamento dos itens: linha ou coluna
+	* flex-wrap -> quebra de linha
+	* flex-flow -> abreviação para o direction e o wrap
+	* justify-content -> alinha os itens do conteiner de acordo com a sua direção
+	* align-items -> alinha os itens de acordo com o eixo do container
+Flex Item
+	Filhos diretos do conteiner, e pode-se aplicar a propriedade display para se 
+tornar um container.
+	Propriedades:
+	* flex-grow -> define o fator de crescimento
+	* flex-basis -> define o valor inicial do item antes da distribuição do espaço
+restante do container
+	* flex-shrink -> define a capacidade de redução
+	* flex -> abreviação das propriedades grow, basis e shrink
+	* order -> ordem de distribuição o listagem dos itens
+	* align-self -> define o alinhamento de um item específico do container
+
