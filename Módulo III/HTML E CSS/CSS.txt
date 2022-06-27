@@ -37,7 +37,26 @@ O texto no HMLT é representado com uma caixa retangular chamado de box model, c
 alterar a aparencia dessa caixa, como largura e cor.
 O box model é composto pode 4 áreas:
 	margin - espaçamento entre elementos
-	border - circundam o padding e o conteúdo
+	border - circundam o padding e o conteúdo, podem ser configradas largura, estilo e cor
 	padding - espaçamento entre a borda e o conteúdo
 	content - texto, imagem ou vídeo
- 
+
+pading contém valor no eixo x e y
+
+topo, direita, inferior, esquerda ou utilizar os valores específicos ára cada lado
+
+web safe fonts, fontes que se adaptam na maioria dos casos: como Verdana e Arial
+
+Dimensão: 
+width -> ajuste de largura, pode-se utilizar pixel (px) ou porcentagem (%);
+height -> ajuste de altura, pode-se utilizar pixel (px) ou porcentagem (%);
+max-width -> define a largura máxima, mas caso a tela esteja menor (exemplo minimizada)
+faz o ajuste conforme a tela, pode-se utilizar pixel (px) ou porcentagem (%);
+max-height -> define a altura máxima, mas caso a tela esteja menor (exemplo minimizada)
+faz o ajuste conforme a tela, pode-se utilizar pixel (px) ou porcentagem (%);
+
+Alinhamento:
+margin -> coloca esppaçamento entre elementos, valor alto, alinhamento automático com
+auto, para que o conteúdo da página sempre se adeque ao tamanho da página e o 
+conteúdo fique alinhado;
+text align -> alinhamento de texto, left, right, center ou justify.
