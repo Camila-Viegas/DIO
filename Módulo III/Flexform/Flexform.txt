@@ -3,8 +3,25 @@ Flexbox
 Flex Container
 	Propriedades:
 	* display -> inicializador do container
-	* flex-direction -> faz o direcionamento dos itens: linha ou coluna
-	* flex-wrap -> quebra de linha
+
+	* flex-direction -> estabelece o eixo principal definindo a direção dos 
+flex itens, faz o direcionamento dos itens: row (linha horizonta) e/ou column (coluna 
+vertical)
+		**row: padrão, direção do texto da direita para a esquerda.
+		**row-reverse: sentido oposto à direção do texto, da esquerda para a 
+		direita.
+		**column: coluna, ordenação de cima para baixo.
+		**column-reverse: ordenação inversa, de baixo para cima.
+	
+	* flex-wrap -> define se haverá ou não haverá quebra de linha do container, 
+por padrão não há a quebra da linha, sendo o conteúdo compactado ao máximo.
+		** nowrap: é o padrão, não permite a quebra.
+		** wrap: faz a quebra de linha, sendo que quando o item não couber
+		será deslocado para essa linha.
+		** wrap-reverse: quebra de linha, porém com o conteúdo não couber 
+		mais na linha ele jogara o conteúdo mais antigo para linha de baixo,
+		sempre mantendo na primeira linha.
+	
 	* flex-flow -> abreviação para o direction e o wrap
 	* justify-content -> alinha os itens do conteiner de acordo com a sua direção
 	* align-items -> alinha os itens de acordo com o eixo do container
@@ -20,3 +37,5 @@ restante do container
 	* order -> ordem de distribuição o listagem dos itens
 	* align-self -> define o alinhamento de um item específico do container
 
+
+ 
