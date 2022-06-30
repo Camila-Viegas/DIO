@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align items</title>
+
+    <style>
+        .container {
+            max-width: 350px;
+            border: 1px solid rgba(219, 217, 217, 0.711);
+            display: flex;
+        }
+
+        .item {
+            background-color: rgb(148, 18, 89);
+            margin: 5px;
+            color: bisque;
+            text-align: center;
+            flex: 1;
+        }
+
+        .center {
+            align-items: center;
+        }
+
+        .stretch {
+            align-items: stretch;
+        }
+
+        .flex-start {
+            align-items: flex-start;
+        }
+
+        .flex-end {
+            align-items: flex-end;
+        }
+
+        .baseline {
+            align-items: baseline;
+        }
+
+        .column {
+            flex-direction: column;
+            min-height: 350px;
+            border: 1px solid rgba(219, 217, 217, 0.711);
+            display: flex;
+        }
+
+        .central {
+            height: 300px;
+            justify-content: center;
+        }
+
+        .central .item {
+            flex: 0px;
+            padding: 50px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+    <h1>Row</h1>
+
+    <p>Center</p>
+    <section class="container center">
+        <div class="item">Laranja</div>
+        <div class="item">Morango</div>
+        <div class="item">Abacaxi</div>
+        <div class="item">Limão Siciliano</div>
+    </section>
+
+    <p>Stretch</p>
+    <section class="container stretch">
+        <div class="item">Laranja</div>
+        <div class="item">Morango</div>
+        <div class="item">Abacaxi</div>
+        <div class="item">Limão Siciliano</div>
+    </section>
+
+    <p>Flex-start</p>
+    <section class="container flex-start">
+        <div class="item">Laranja</div>
+        <div class="item">Morango</div>
+        <div class="item">Abacaxi</div>
+        <div class="item">Limão Siciliano</div>
+    </section>
+
+    <p>Flex-end</p>
+    <section class="container flex-end">
+        <div class="item">Laranja</div>
+        <div class="item">Morango</div>
+        <div class="item">Abacaxi</div>
+        <div class="item">Limão Siciliano</div>
+    </section>
+
+    <p>baseline</p>
+    <section class="container baseline">
+        <div class="item"><br>Laranja</div>
+        <div class="item">Morango</div>
+        <div class="item">Abacaxi</div>
+        <div class="item">Limão Siciliano</div>
+    </section>
+
+
+    <h1>Column</h1>
+
+    <p>Center</p>
+    <section class="container center column">
+        <div class="item">Laranja</div>
+        <div class="item">Morango</div>
+        <div class="item">Abacaxi</div>
+        <div class="item">Limão Siciliano</div>
+    </section>
+
+    <p>Stretch</p>
+    <section class="container stretch column">
+        <div class="item">Laranja</div>
+        <div class="item">Morango</div>
+        <div class="item">Abacaxi</div>
+        <div class="item">Limão Siciliano</div>
+    </section>
+
+    <p>Flex-start</p>
+    <section class="container flex-start column">
+        <div class="item">Laranja</div>
+        <div class="item">Morango</div>
+        <div class="item">Abacaxi</div>
+        <div class="item">Limão Siciliano</div>
+    </section>
+
+    <p>Flex-end</p>
+    <section class="container flex-end column">
+        <div class="item">Laranja</div>
+        <div class="item">Morango</div>
+        <div class="item">Abacaxi</div>
+        <div class="item">Limão Siciliano</div>
+    </section>
+
+    <p>baseline</p>
+    <section class="container baseline column">
+        <div class="item"><br>Laranja</div>
+        <div class="item">Morango</div>
+        <div class="item">Abacaxi</div>
+        <div class="item">Limão Siciliano</div>
+    </section>
+
+<p>Alinhamento central à tela</p>
+    <section class="container center central">
+        <div class="item">Ave Maria cheia de graça, 
+            o Senhor é convosco, bendita sois vós 
+            entre as mulheres e bendito é fruto 
+            do vosso ventre Jesus.
+            Santa Maria, mãe de Deus, rogai por 
+            nós pecadores, agora e na hora de 
+            nossa morte. Amém.
+        </div>
+    </section>
+
+</body>
+</html>

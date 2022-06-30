@@ -1,4 +1,4 @@
-Flexbox
+ Flexbox
 
 Flex Container
 	Propriedades:
@@ -22,9 +22,28 @@ por padrão não há a quebra da linha, sendo o conteúdo compactado ao máximo.
 		mais na linha ele jogara o conteúdo mais antigo para linha de baixo,
 		sempre mantendo na primeira linha.
 	
-	* flex-flow -> abreviação para o direction e o wrap
-	* justify-content -> alinha os itens do conteiner de acordo com a sua direção
+	* flex-flow -> atalho para o direction e o wrap, onde declara-se a direção
+row (linha) ou column (coluna) e wrap (quebra de linha).
+  
+	* justify-content -> alinha os itens dentro do conteiner de acordo com a 
+sua direção, além de tratar a distribuição de espaço entre eles.
+		** flex-start: início do container.
+		** flex-end: final do container.
+		** center: centro do container.
+		** space-between: cria um espaço igual entre os elementos. Detalhe
+ele coloca o primeiro elemento perto da margem do início do container e o último 
+elemento perto da mrgem do final do container.
+		** space-around: os espaçamentos do meio são duas vezes maiores que
+inicial e o final.
+
 	* align-items -> alinha os itens de acordo com o eixo do container
+		** center: alinhamento dos itens ao centro do container
+		** stretch: padrão, itens crescem igualmente
+		** flex-start: alinhamento dos itens no início do container
+		** flex-end: alinhamento dos itens no final do container
+		** baseline: alinhamento de acordo com a linha base   
+
+
 Flex Item
 	Filhos diretos do conteiner, e pode-se aplicar a propriedade display para se 
 tornar um container.
