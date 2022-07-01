@@ -1,7 +1,9 @@
  Flexbox
 
 Flex Container
+
 	Propriedades:
+
 	* display -> inicializador do container
 
 	* flex-direction -> estabelece o eixo principal definindo a direção dos 
@@ -41,16 +43,36 @@ inicial e o final.
 		** stretch: padrão, itens crescem igualmente
 		** flex-start: alinhamento dos itens no início do container
 		** flex-end: alinhamento dos itens no final do container
-		** baseline: alinhamento de acordo com a linha base   
+		** baseline: alinhamento de acordo com a linha base
+
+	* align-content -> alinhamento das linhas do conatainer em relação ao eixo
+vertical, para isso precisa-se que o container utilize a quebra de linha (wrap) e
+que a altura do container seja maior que a soma das linhas dos itens.
+		** center: alinhamento dos itens ao centro.
+		** stretch: padrão, itens crescem igualmente.
+		** flex-star: alinhamento dos itens no início.
+		** flex-end: alinhamento dos itens no final.  
+		** space-between: cria um espaçamento igual entre os elementos.
+		** space-around: os espaçamentos do meio são duas vezes maiores que o
+inicial e o final.
 
 
 Flex Item
 	Filhos diretos do conteiner, e pode-se aplicar a propriedade display para se 
 tornar um container.
+
 	Propriedades:
-	* flex-grow -> define o fator de crescimento
+
+	* flex-grow -> define a proporcionalidade de crescimento do item, não funcionará
+caso tenha a propriedade justify-content. Seu valor será sempre em números.
+
 	* flex-basis -> define o valor inicial do item antes da distribuição do espaço
 restante do container
+		** auto: caso o item não tenha tamanho, este será proporcional ao
+		conteúdo.
+		** px, %, em: valores exatos.
+		** 0: terá relação com a definição do flex-grow.
+ 
 	* flex-shrink -> define a capacidade de redução
 	* flex -> abreviação das propriedades grow, basis e shrink
 	* order -> ordem de distribuição o listagem dos itens

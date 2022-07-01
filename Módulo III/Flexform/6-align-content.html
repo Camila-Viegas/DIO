@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align-content</title>
+
+    <style>
+        .container {
+            height: 400px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 3px solid black;
+            background-color: rgb(59, 69, 69);
+        }
+
+        .item {
+            background-color: lightgray;
+            padding: 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: rgb(162, 28, 102);
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .stretch {
+            align-content: stretch;
+        }
+
+        .center {
+            align-content: center;
+        }
+
+        .flex-start {
+            align-content: flex-start;
+        }
+
+        .flex-end {
+            align-content: flex-end;
+        }
+
+        .space-between {
+            align-content: space-between;
+        }
+
+        .space-around {
+            align-content: space-around;
+        }
+
+        .background {
+            background-color: rgb(59, 69, 69);
+        }
+
+        .font {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: large;
+        }
+    </style>
+
+</head>
+<body class="background">
+
+    <p class="font">Stretch</p>
+    <section class="container stretch">
+        <div class="item">Receitas</div>
+        <div class="item">Doces</div>
+        <div class="item">Salgados</div>
+        <div class="item">Sobremesa</div>
+        <div class="item">Deixe um comentário</div>
+        <div class="item">Vídeos</div>
+        <div class="item">Tutoriais</div>
+    </section>
+    
+    <p class="font">Center</p>
+    <section class="container center">
+        <div class="item">Receitas</div>
+        <div class="item">Doces</div>
+        <div class="item">Salgados</div>
+        <div class="item">Sobremesa</div>
+        <div class="item">Deixe um comentário</div>
+        <div class="item">Vídeos</div>
+        <div class="item">Tutoriais</div>
+    </section>
+
+    <p class="font">Flex-start</p>
+    <section class="container flex-start">
+        <div class="item">Receitas</div>
+        <div class="item">Doces</div>
+        <div class="item">Salgados</div>
+        <div class="item">Sobremesa</div>
+        <div class="item">Deixe um comentário</div>
+        <div class="item">Vídeos</div>
+        <div class="item">Tutoriais</div>
+    </section>
+
+    <p class="font">Flex-end</p>
+    <section class="container flex-end">
+        <div class="item">Receitas</div>
+        <div class="item">Doces</div>
+        <div class="item">Salgados</div>
+        <div class="item">Sobremesa</div>
+        <div class="item">Deixe um comentário</div>
+        <div class="item">Vídeos</div>
+        <div class="item">Tutoriais</div>
+    </section>
+
+    <p class="font">Space-between</p>
+    <section class="container space-between">
+        <div class="item">Receitas</div>
+        <div class="item">Doces</div>
+        <div class="item">Salgados</div>
+        <div class="item">Sobremesa</div>
+        <div class="item">Deixe um comentário</div>
+        <div class="item">Vídeos</div>
+        <div class="item">Tutoriais</div>
+    </section>
+
+    <p class="font">Space-around</p>
+    <section class="container space-around">
+        <div class="item">Receitas</div>
+        <div class="item">Doces</div>
+        <div class="item">Salgados</div>
+        <div class="item">Sobremesa</div>
+        <div class="item">Deixe um comentário</div>
+        <div class="item">Vídeos</div>
+        <div class="item">Tutoriais</div>
+    </section>
+
+</body>
+</html>
