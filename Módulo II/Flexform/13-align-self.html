@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align-self</title>
+    <style>
+        .flex-container {
+            max-width: 350px;
+            border: 1px solid;
+            margin-bottom: 50px;
+            display: flex;
+            background-color: beige;
+            margin
+        }
+
+        .align-container {
+            align-items: center;
+        }
+
+        .item {
+            background-color: burlywood;
+            color: rgb(118, 15, 67);
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .center {
+            align-self: center;
+        }
+
+        .start {
+            align-self: flex-start;
+        }
+
+        .end {
+            align-self: flex-end;
+        }
+
+        .stretch {
+            align-self: stretch;
+        }
+
+        .baseline {
+            align-self: baseline;
+        }
+
+        .auto {
+            align-self: auto;
+        }
+
+        .font {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+        }
+
+        .direction {
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="font">Row</h1>
+    <p class="font">Align-self: Auto c/ align-container: center</p>
+    <section class="flex-container font align-container">
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Chocolate é vida, coma todos os dias</div>
+        <div class="item auto">ITEM 4</div>
+    </section>    
+
+    <p class="font">Align-self: Mix</p>
+    <section class="flex-container font">
+        <div class="item center">AAA</div>
+        <div class="item start">123</div>
+        <div class="item stretch">Chocolate é vida, coma todos os dias</div>
+        <div class="item end">ITEM 4</div>
+    </section> 
+
+    <h1 class="font">Column</h1>
+
+    <p class="font">Align-self: Auto c/ align-container: center</p>
+    <section class="flex-container font align-container direction">
+        <div class="item auto">AAA</div>
+        <div class="item auto">123</div>
+        <div class="item auto">Chocolate é vida, coma todos os dias</div>
+        <div class="item auto">ITEM 4</div>
+    </section>  
+
+    <p class="font">Align-self: Mix</p>
+    <section class="flex-container font direction">
+        <div class="item center">AAA</div>
+        <div class="item start">123</div>
+        <div class="item stretch">Chocolate é vida, coma todos os dias</div>
+        <div class="item end">ITEM 4</div>
+    </section> 
+
+</body>
+</html>
