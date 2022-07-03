@@ -1,0 +1,17 @@
+Declaração de constantes deve-se ser realizada em letras maiúsculas, lembrando que 
+contantes não podem ser manipuladas.
+
+Funções:
+	console = imprime no console o resultado da função.
+	return = manda o resultado da função para outra classe manipula-lo.
+
+	Exemplo:
+		function soma (a, b) {	//criando um função que tem o nome de soma e vai trabalhar com os valores a e b.
+		return a + b; 		//realiza a soma de a e b e retorna o resultado para quem chamar a função soma.
+		}
+
+		
+		soma (3, 5); 		// chamando a função soma para trabalhar os valore 3 e 5 e retornar o resultado.
+
+
+Console:
