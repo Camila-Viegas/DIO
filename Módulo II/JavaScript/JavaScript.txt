@@ -1,5 +1,15 @@
+Console
+ls - lista o conteúdo do diretório
+cd - acessa diretório
+node arquivo.js - roda o arquivo js
+
+
+crtl+shift+i = abre a DevTools
+
+
 Declaração de constantes deve-se ser realizada em letras maiúsculas, lembrando que 
 contantes não podem ser manipuladas.
+
 
 Funções:
 	console = imprime no console o resultado da função.
@@ -14,4 +24,56 @@ Funções:
 		soma (3, 5); 		// chamando a função soma para trabalhar os valore 3 e 5 e retornar o resultado.
 
 
-Console:
+DOM - Document Object Model
+Exemplos de query para mudar a cor do h1
+	digitar = document.getElementsByTagName ('h1')
+	retorno = HTMLCollection [h1]0: h1length: 1[[Prototype]]: HTMLCollection
+	digitar = var heading1 = document.getElementsByTagName('h1')[0]
+	retorno = undefined
+	digitar = heading1
+	retorno = <h1>​Olá Mundo!​</h1>​
+	digitar = heading1.style.color = 'red'
+	retorno = 'red'
+
+Operadores de atribuição no JavaScript
+	=   ->	x=y	x=y 	// x recebe y
+	+=  ->	x+=y	x=x+y	// x recebe x+y
+	*=  ->	x*=y	x=x*y	// x recebe x*y
+	/=  ->	x/=y	x=x/y	// x recebe x/y
+	%=  -> 	x%=y	x=x%y	// x recebe x%y
+
+Operadores Aritmeticos
+	+  ->  adição
+	-  ->  subtração
+	*  ->  multiplicação
+	** ->  exponenciação
+	/  ->  divisão
+	%  ->  módulo
+	++ ->  incrementação
+	-- ->  decrementação
+
+Operadores de Comparação
+	==   ->   igual a
+	===  ->   mesmo valor e mesmo tipo
+	!=   ->   diferente
+	!==  ->   valor e tipos diferentes
+	>    ->   maior que
+	<    ->   menor que
+	>=   ->   maior ou igual
+	<=   ->   menor ou igual
+
+Operadores Condicionais
+	&&   ->   e
+	||   ->   ou
+	!    ->   não
+
+Operador Condicional ternário
+
+	(condição) ? expressão1 : expressão2
+
+a situação acima seria o equilavente ao if else, sendo:
+
+	if (condição)		// condição
+		statemente;	// expressão 1
+	else
+		statemente;	// expressão 2
